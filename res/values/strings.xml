@@ -1,0 +1,16 @@
+<resources>
+    
+    <string name="app_name">Hammering</string>
+    <string name="menu_settings">Opções</string>
+    <string name="title_activity_main">Hammering Alligator</string>
+    <string name="iniciar_jogo">Toque na tela para iniciar o jogo</string>
+    <string name="score">Score:</string>
+    <string name="nextlevel_msg">Toque na tela para continuar o jogo</string>
+    <string name="highscore">High Score:</string>
+    <string name="time">Tempo: </string>
+	<string name="gameover">Game Over </string>
+	<string name="button_play">Play</string>
+	<string name="hello">Hello World, HammeringHalligator!</string>
+	
+	
+</resources>

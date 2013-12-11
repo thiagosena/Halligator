@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:background="@drawable/options_screen_background" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+	<ImageButton 
+		android:id="@+id/back_button"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="17dip"
+		android:layout_marginRight="16dip"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/button_back_off" 
+		/>
+
+	<RelativeLayout
+	    android:id="@+id/options_container"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/back_button"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="101dp"
+	    android:gravity="right"
+	    android:paddingTop="70dip" >
+
+	    <RelativeLayout
+	        android:id="@+id/sound_select"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true" >
+
+	        <ImageButton
+	            android:id="@+id/sound_select_image"
+	            android:layout_width="60dip"
+	            android:layout_height="60dip" />
+
+	        <ImageButton
+	            android:id="@+id/sound_select_checkbox"
+	            android:layout_width="20dip"
+	            android:layout_height="20dip"
+	            android:layout_centerInParent="true"
+	            android:layout_marginLeft="5dip"
+	            android:layout_toRightOf="@id/sound_select_image" />
+	    </RelativeLayout>
+	</RelativeLayout>
+
+	<RelativeLayout
+	    android:id="@+id/vibrations_select"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/options_container"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="29dp" >
+
+	    <ImageButton
+	        android:id="@+id/vibrations_select_image"
+	        android:layout_width="60dip"
+	        android:layout_height="70dip" />
+
+	    <ImageButton
+	        android:id="@+id/vibrations_select_checkbox"
+	        android:layout_width="20dip"
+	        android:layout_height="20dip"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="5dip"
+	        android:layout_toRightOf="@id/vibrations_select_image" />
+	</RelativeLayout>
+
+</RelativeLayout >

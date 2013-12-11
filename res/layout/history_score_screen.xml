@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/top_history_screen_background" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+	<ImageButton 
+		android:id="@+id/back_button"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="17dip"
+		android:layout_marginRight="16dip"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/button_back_off" 
+	/>
+	
+	<ListView 
+		android:id="@+id/historico"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@android:color/transparent"
+		android:cacheColorHint="@android:color/transparent"
+		android:layout_marginTop="207dip"
+		android:layout_marginRight="16dip"
+		android:layout_marginLeft="26dip"
+		android:layout_marginBottom="30dip"
+		android:layout_alignParentRight="true"
+		android:maxLines="10"		 
+	/>
+
+</RelativeLayout >

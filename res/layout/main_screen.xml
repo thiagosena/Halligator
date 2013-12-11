@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen_background" >
+
+    <ImageButton
+        android:id="@+id/main_screen_button_run_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dip"
+        android:layout_marginLeft="154dip"
+        android:background="@drawable/main_screen_button_play_off" />
+
+    <ImageButton
+        android:id="@+id/main_screen_login"
+        style="@style/MainScreenMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="150dip"
+        android:layout_marginTop="0dip"
+        android:background="@drawable/login48" />
+
+    <ImageButton
+        android:id="@+id/main_screen_top_players"
+        style="@style/MainScreenMenuButton"
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="180dip"
+        android:background="@drawable/main_screen_button_top_players_off" />
+
+    <ImageButton
+        android:id="@+id/main_screen_option"
+        style="@style/MainScreenMenuButton"
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/main_screen_top_players"
+        android:background="@drawable/main_screen_button_options_off" />
+
+    <ImageButton
+        android:id="@+id/main_screen_history"
+        style="@style/MainScreenMenuButton"
+        android:layout_width="140dip"
+        android:layout_height="50dip"
+        android:layout_below="@id/main_screen_top_players"
+        android:layout_marginTop="60dip"
+        android:background="@drawable/main_screen_button_history_off" />
+
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dip"
+        android:layout_marginBottom="500dip"
+        android:textColor="#1D3472"
+        android:text="Anonymous"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Theme.NoBackground" parent="android:Theme">
+		<item name="android:windowBackground">@null</item>
+	</style>
+
+	<style name="Preloader" parent="android:style/Theme.Dialog">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:windowBackground">@drawable/main_screen_background</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowAnimationStyle">@style/PreloaderAnimation</item>
+	</style>
+
+	<style name="PreloaderAnimation" parent="@android:Animation">
+		<item name="android:windowEnterAnimation">@anim/show_preloader</item>
+		<item name="android:windowExitAnimation">@anim/hide_preloader</item>
+	</style>
+
+	<style name="MainScreenMenuButton">
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_marginRight">15dip</item>
+		<item name="android:layout_marginBottom">10dip</item>
+	</style>
+
+	<style name="TitleBarText">
+        <item name="android:id">@+id/title_text</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+	
+</resources>
